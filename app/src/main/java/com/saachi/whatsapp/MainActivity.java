@@ -1,13 +1,11 @@
-package com.saachi.chatapp;
+package com.saachi.whatsapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -19,7 +17,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.saachi.chatapp.Model.User;
+import com.saachi.whatsapp.Model.User;
+import com.saachi.chatapp.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 

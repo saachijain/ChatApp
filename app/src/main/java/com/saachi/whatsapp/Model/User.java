@@ -1,4 +1,4 @@
-package com.saachi.chatapp.Model;
+package com.saachi.whatsapp.Model;
 
 public class User {
     private String id, username, imageURL, status, search;

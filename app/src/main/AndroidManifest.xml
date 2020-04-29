@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MessageActivity"/>
-        <activity android:name=".Fragments.UsersFragment" />
-        <activity android:name=".Fragments.ProfileFragment" />
-        <activity android:name=".Fragments.ChatsFragment" />
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.saachi.whatsapp.MessageActivity"/>
+        <activity android:name="com.saachi.whatsapp.Fragments.UsersFragment" />
+        <activity android:name="com.saachi.whatsapp.Fragments.ProfileFragment" />
+        <activity android:name="com.saachi.whatsapp.Fragments.ChatsFragment" />
+        <activity android:name="com.saachi.whatsapp.ResetPasswordActivity" />
+        <activity android:name="com.saachi.whatsapp.RegisterActivity" />
+        <activity android:name="com.saachi.whatsapp.LoginActivity" />
+        <activity android:name="com.saachi.whatsapp.MainActivity" >
 
         </activity>
-        <activity android:name=".StartActivity">
+        <activity android:name="com.saachi.whatsapp.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.START" />
 

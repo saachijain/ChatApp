@@ -1,4 +1,4 @@
-package com.saachi.chatapp.Model;
+package com.saachi.whatsapp.Model;
 
 public class ChatList {
     private String id;

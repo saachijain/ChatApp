@@ -1,4 +1,4 @@
-package com.saachi.chatapp.Fragments;
+package com.saachi.whatsapp.Fragments;
 
 
 import androidx.annotation.NonNull;
@@ -23,8 +23,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.saachi.chatapp.Adapter.UserAdapter;
-import com.saachi.chatapp.Model.User;
+import com.saachi.whatsapp.Adapter.UserAdapter;
+import com.saachi.whatsapp.Model.User;
 import com.saachi.chatapp.R;
 
 import java.util.ArrayList;

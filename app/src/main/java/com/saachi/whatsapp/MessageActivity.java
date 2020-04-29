@@ -1,4 +1,4 @@
-package com.saachi.chatapp;
+package com.saachi.whatsapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,9 +21,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.saachi.chatapp.Adapter.MessageAdapter;
-import com.saachi.chatapp.Model.Chat;
-import com.saachi.chatapp.Model.User;
+import com.saachi.whatsapp.Adapter.MessageAdapter;
+import com.saachi.whatsapp.Model.Chat;
+import com.saachi.whatsapp.Model.User;
+import com.saachi.chatapp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

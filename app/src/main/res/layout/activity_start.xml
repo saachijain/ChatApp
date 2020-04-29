@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:weightSum="11"
-    tools:context=".StartActivity"
+    tools:context="com.saachi.whatsapp.StartActivity"
     android:orientation="vertical">
 
     <TextView

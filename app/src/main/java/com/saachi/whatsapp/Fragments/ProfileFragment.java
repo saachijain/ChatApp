@@ -1,4 +1,4 @@
-package com.saachi.chatapp.Fragments;
+package com.saachi.whatsapp.Fragments;
 
 
 import androidx.annotation.NonNull;
@@ -27,7 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
-import com.saachi.chatapp.Model.User;
+import com.saachi.whatsapp.Model.User;
 import com.saachi.chatapp.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;

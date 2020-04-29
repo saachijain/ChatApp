@@ -1,4 +1,4 @@
-package com.saachi.chatapp.Adapter;
+package com.saachi.whatsapp.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.saachi.chatapp.Model.Chat;
+import com.saachi.whatsapp.Model.Chat;
 import com.saachi.chatapp.R;
 
 import java.util.List;
