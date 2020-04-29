@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505369641332",
+    "firebase_url": "https://chatapp-de594.firebaseio.com",
+    "project_id": "chatapp-de594",
+    "storage_bucket": "chatapp-de594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505369641332:android:57318344be8fcf6eba6c21",
+        "android_client_info": {
+          "package_name": "com.saachi.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505369641332-ong7q2cjc7ibdn51hghgm0k5kdj550bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvOR8aOOd5AZkhA-gOtiJUfb_hFekImM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505369641332-ong7q2cjc7ibdn51hghgm0k5kdj550bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
