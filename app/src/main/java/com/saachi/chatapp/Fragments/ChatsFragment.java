@@ -54,8 +54,15 @@ public class ChatsFragment extends Fragment {
                 userslist.clear();
                 for (DataSnapshot snapshot: dataSnapshot.getChildren()){
                     Chat chat= snapshot.getValue(Chat.class);
-                    if()
+                    if(chat.getSender().equals(firebaseUser.getUid())){
+                        userslist.add(chat.getReceiver());
+                    }
+                    if(chat.getReceiver().equals(firebaseUser.getUid())){
+                        userslist.add(chat.getSender());
+                    }
+
                 }
+                readChats();
 
             }
 
@@ -63,7 +70,37 @@ public class ChatsFragment extends Fragment {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        })
+        });
 
+        return view;
+    }
+
+    private void readChats(){
+        mUsers=new ArrayList<>();
+        display_chat=new ArrayList<>();
+        reference=FirebaseDatabase.getInstance().getReference("Users");
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                mUsers.clear();
+                display_chat.clear();
+                for(DataSnapshot snapshot: dataSnapshot.getChildren()){
+                    User user= snapshot.getValue(User.class);
+                    for(String name: userslist){
+                        if(user.getId().equals(name)){
+                            display_chat.add(user);
+                            break;
+                        }
+                    }
+                }
+                userAdapter=new UserAdapter(getContext(), display_chat, true);
+                recyclerView.setAdapter(userAdapter);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 }
