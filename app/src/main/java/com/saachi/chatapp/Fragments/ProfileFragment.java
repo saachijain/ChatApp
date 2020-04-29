@@ -99,7 +99,7 @@ public class ProfileFragment extends Fragment {
         return mimeTypeMap.getExtensionFromMimeType(contentResolver.getType(uri));
     }
 
-    //could not find uploadImage function on the internet, as said by the video
+    //could not find uploadImage function on the internet, as said in the video
 
 
     @Override

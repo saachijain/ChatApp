@@ -40,11 +40,13 @@
             android:background="@color/colorPrimary"
             app:tabSelectedTextColor="#ffffff"
             app:tabTextColor="#ffffff"
-            IndicatorColor="#ffffff"/>
+            IndicatorColor="#ffffff"
+            android:id="@+id/tab_layout"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
