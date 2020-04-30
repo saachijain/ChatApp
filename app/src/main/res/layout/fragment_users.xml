@@ -15,7 +15,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycler_view_users"
+        android:id="@+id/recycler_view"
         android:layout_below="@+id/search_users"/>
 
 </RelativeLayout>

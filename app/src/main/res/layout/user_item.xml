@@ -9,9 +9,20 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@mipmap/ic_launcher"
-        android:id="@+id/profile_image">
+        android:id="@+id/profile_image"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_on"
+        android:visibility="gone"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_off"
+        android:visibility="gone"/>
 
-    </de.hdodenhof.circleimageview.CircleImageView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

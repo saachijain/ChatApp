@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.saachi.chatapp.R;
+import com.saachi.whatsapp.R;
 
 import java.util.HashMap;
 
@@ -76,6 +76,7 @@ public class RegisterActivity extends AppCompatActivity {
                                                    hashMap.put("id", user_id);
                                                    hashMap.put("name", name);
                                                    hashMap.put("status", "offline");
+                                                   hashMap.put("imageURL","default");
                                                    hashMap.put("search", name.toLowerCase());
                                                    reference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                        @Override

@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.saachi.whatsapp.Model.Chat;
-import com.saachi.chatapp.R;
+import com.saachi.whatsapp.R;
 
 import java.util.List;
 
@@ -77,7 +77,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             show_message = itemView.findViewById(R.id.show_message);
-            //txt_seen = itemView.findViewById(R.id.txt_seen);
+            txt_seen = itemView.findViewById(R.id.txt_seen);
             profile_image = itemView.findViewById(R.id.profile_image);
         }
     }

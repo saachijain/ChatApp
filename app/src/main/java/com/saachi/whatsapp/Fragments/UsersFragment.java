@@ -25,7 +25,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.saachi.whatsapp.Adapter.UserAdapter;
 import com.saachi.whatsapp.Model.User;
-import com.saachi.chatapp.R;
+import com.saachi.whatsapp.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +42,7 @@ public class UsersFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
       View view=inflater.inflate(R.layout.fragment_users, container, false);
-      recyclerView=view.findViewById(R.id.recycler_view_users);
+      recyclerView=view.findViewById(R.id.recycler_view);
       recyclerView.setHasFixedSize(true);
       recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
       mUsers=new ArrayList<>();

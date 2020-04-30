@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.saachi.chatapp.R;
+import com.saachi.whatsapp.R;
 
 public class StartActivity extends AppCompatActivity {
 

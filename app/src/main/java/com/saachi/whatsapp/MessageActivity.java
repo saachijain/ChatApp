@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.saachi.whatsapp.Adapter.MessageAdapter;
 import com.saachi.whatsapp.Model.Chat;
 import com.saachi.whatsapp.Model.User;
-import com.saachi.chatapp.R;
+import com.saachi.whatsapp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
